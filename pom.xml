@@ -38,6 +38,25 @@
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
 
+		<!-- Seguridad en Spring WebFlux para Gateway -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<!-- WebFlux necesario para Spring Cloud Gateway -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<!-- Spring Cloud Gateway -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
+		</dependency>
+
+
         <!-- JWT para validación -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
