@@ -19,7 +19,6 @@ public class GatewayApplication {
         System.out.println("   Products: http://localhost:8082");
         System.out.println("   Orders:   http://localhost:8083");
         System.out.println("   Payments: http://localhost:8084");
-        System.out.println("   Admin:    http://localhost:8085");
         System.out.println("========================================");
     }
 }

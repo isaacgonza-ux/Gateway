@@ -1,5 +1,11 @@
 package com.example.gateway.config;
 
+//Este bean configura CORS (Cross-Origin Resource Sharing) para permitir que aplicaciones frontend ejecutándose en diferentes puertos 
+// (como React en localhost:5173 o Angular en localhost:4200) puedan hacer peticiones al backend sin ser bloqueadas por el navegador.
+//  Define qué orígenes, métodos HTTP y headers están permitidos, habilita el envío de credenciales como tokens de autenticación, 
+// y especifica qué headers de respuesta pueden ser leídos por el cliente. Básicamente, elimina las restricciones de seguridad del 
+// navegador que normalmente impedirían que tu frontend en un puerto diferente acceda a tu API.
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
